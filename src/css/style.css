@@ -689,6 +689,10 @@
   text-decoration: none;
 }
 
+* .xs-visible {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   * .menu_item {
     padding-right: 24px;
@@ -813,6 +817,28 @@
   * .hamburger_active span:nth-child(3) {
     -webkit-transform: translateY(3px) rotate(45deg);
             transform: translateY(3px) rotate(45deg);
+  }
+  * .xs-hidden {
+    display: none;
+  }
+  * .xs-visible {
+    display: block;
+  }
+  * .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  * .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
